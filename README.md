@@ -50,7 +50,7 @@ TCP 3389 (RDP): Remote Desktop Protocol, used to remotely control a Windows mach
 
 After opening these ports for all machines, I still wasn't able to ping them. After searching for an answer, I tried enabling ICMPv4 ports on both Windows machines, along with the "File and printer Sharing (Echo Request)-ICMPv4 and v6.
 ![Screenshot 2025-06-16 142530](https://github.com/user-attachments/assets/a1aa4c2a-9618-4ffa-820d-b92a4af2dc42)
-AFter doing this, I was finally able to ping both windows machines from Ubuntu. 
+After doing this, I was finally able to ping both windows machines from Ubuntu. 
 
 Now that telemetry was made between the machines, it was time to create the example user that would be using the test machine. Before creating the user, however, I had to download active directory onto the Domain Controller machine. To start, I click on "add roles and feature".
 ![IMG_6324](https://github.com/user-attachments/assets/146d3649-108b-4e9b-829c-29b5df5c3dd4)
