@@ -9,7 +9,7 @@ The Active Directory Project aimed to created a basic understanding of how Activ
 ### Skills Learned
 
 
-- How to setup Virtual Machibes on Microsoft Azure.
+- How to setup Virtual Machines on Microsoft Azure.
 - Basic Understanding of Windows Active Directory.
 - Able to successfully create Telemetry between devices on a network.
 - Basic understanding of IPs and ports.
