@@ -124,7 +124,7 @@ Now that all the steps were complete, I can sign into the Slunk interface and mo
 
 
 
-###Conclusion?Final Thoughts
+### Conclusion/Final Thoughts
 
 Overall, this was a huge learning experience for me. Nefore this I had never worked with virtual machines or active directory. It was also very interesting working with the Windows Powershell, using it to SSH into the Ubuntu machine. It was also very interesting working with Splunk. It was very interesting monitoring the traffic and seeing all the different services splunk offers. It was a great time working with Active Directory and it is something I definitely want to learn more! 
 
