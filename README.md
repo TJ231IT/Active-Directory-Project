@@ -57,7 +57,7 @@ Now that telemetry was made between the machines, it was time to create the exam
 From here, I was able to select Active Directory/Domain Services to download to the Domain Controller. 
 ![IMG_6325](https://github.com/user-attachments/assets/1a944c3b-cde4-42b9-be05-0ec1851856ed)
 
-After it was done installing, the machine needed to restart. Once it was restarted, the Active Directory resources were ready to use. I verified this by checking here:
+After it was done installing, the machine needed to restart. Once it was restarted, the Active Directory resources were ready to use. I verified this by making sure the Active Directory Administrative Center showed up in the windows search bar:
 ![Screenshot 2025-06-16 132515](https://github.com/user-attachments/assets/702f042d-62c2-417a-851c-320ab10fc344)
 
 I was able to create a new user in the ACtive Directory Users and Computers. From here, I could create users, change/reset passwords, and even unlock/disable users.
