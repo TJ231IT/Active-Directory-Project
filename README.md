@@ -48,7 +48,7 @@ TCP 80 (HTTP): used for web traffic, no encryption.
 TCP 22 (SSH): Secure Shell, securely log into computers or servers. 
 TCP 3389 (RDP): Remote Desktop Protocol, used to remotely control a Windows machine. 
 
-After opening these ports for all machines, I still wasn't able to ping them. After searching for an answer, I tried enabling ICMPv4 ports on both Windows machines, along with the "File and printer Sharing (Echo Request)-ICMPv4 and v6. This was found in the "Inbound Rules" setting in the Windows Defender & Firewall settings.
+After opening these ports for all machines, I still wasn't able to ping them. After searching for an answer, I tried enabling ICMPv4 ports on both Windows machines, along with the "File and printer Sharing (Echo Request)-ICMPv4 and v6. This was found in the "Inbound Rules" setting in the Windows Defender Firewall settings.
 ![Screenshot 2025-06-16 142530](https://github.com/user-attachments/assets/a1aa4c2a-9618-4ffa-820d-b92a4af2dc42)
 After doing this, I was finally able to ping both windows machines from Ubuntu. 
 
