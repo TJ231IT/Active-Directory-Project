@@ -38,17 +38,17 @@ To access Ubuntu, I used the Windows Powershell to SSH into the machine. I was a
 
 ssh -i C:\Users\Tyler\Desktop\UbuntuSplunk_key.pem Splunk@4.227.xxx.xx
 
-This allowed me to use UBUNTU and ping the windows machines, to make sure they are able to communicate with each other. To ping the windows machines, I needed to type in ping along with their private ip addresses. It looked something like this: 
+This allowed me to use UBUNTU and ping the windows machines, to make sure they are able to communicate with each other. To ping the windows machines, I needed to type in "ping" along with the machines' private ip addresses. It looked something like this: 
 ping 10.0.x.x
 When I did this, however, I got no response from the target machines. To fix this, I tried opening up these ports in Azure for all machines on the domain:
 ![Screenshot 2025-06-16 131840](https://github.com/user-attachments/assets/46cfd823-1c90-4e7a-9550-1a11807c1e6c)
 Each port is in charge of different things. Although each port has a different function, I was able to use the same source IP for each one (this being my Public IP). Doing this allowed my machines to be a lot more secure since only inbound traffic within the Public IP was allowed to communicate with the machines. For a better understanding, this is what each port does: 
 TCP 443 (HTTPS): used for secure web traffic, encrypts your data. 
-TCP 80 (HTTP): used for web traffic, no encryption
+TCP 80 (HTTP): used for web traffic, no encryption.
 TCP 22 (SSH): Secure Shell, securely log into computers or servers. 
 TCP 3389 (RDP): Remote Desktop Protocol, used to remotely control a Windows machine. 
 
-After opening these ports for all machines, I still wasn't able to ping them. After searching for an answer, I tried enabling ICMPv4 ports on both Windows machines, along with the "File and printer Sharing (Echo Request)-ICMPv4 and v6.
+After opening these ports for all machines, I still wasn't able to ping them. After searching for an answer, I tried enabling ICMPv4 ports on both Windows machines, along with the "File and printer Sharing (Echo Request)-ICMPv4 and v6. This was found in the "Inbound Rules" setting in the Windows Defender & Firewall settings.
 ![Screenshot 2025-06-16 142530](https://github.com/user-attachments/assets/a1aa4c2a-9618-4ffa-820d-b92a4af2dc42)
 After doing this, I was finally able to ping both windows machines from Ubuntu. 
 
