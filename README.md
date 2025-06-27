@@ -4,7 +4,7 @@
 ![Active Directory Project Diagram1 drawio](https://github.com/user-attachments/assets/cf12b08f-388c-470b-9e4a-29d7a1a7183e)
 
 
-The Active Directory Project aimed to created a basic understanding of how Active Directory is used in a real world environment. To do this, I created 3 virtual machines on Microsoft Azure. I was able to create two 2022 windows machines and one instance of Ubuntu. One Windows machine was meant to act as the user machine, and the other acted as the Active Directory Domain Controller. This is where I would be able to create new users,reset/change passwords, or unlock users in the Windows Active Directory. I used the UBUNTU machine to download Splunk and used that as a way to monitor traffic between the machines, and see detailed information about successful log-ons. 
+The Active Directory Project aimed to created a basic understanding of how Active Directory is used in a real world environment. To do this, I created 3 virtual machines on Microsoft Azure. I was able to create two 2022 windows machines and one instance of Ubuntu. One Windows machine (Test Machine in the image above) was meant to act as the user machine, and the other acted as the Active Directory Domain Controller. This is where I would be able to create new users,reset/change passwords, or unlock users in the Windows Active Directory. I used the UBUNTU machine to download Splunk and used that as a way to monitor traffic between the machines, and see detailed information about successful log-ons. 
 
 ### Skills Learned
 
