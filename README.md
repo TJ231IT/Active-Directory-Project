@@ -28,7 +28,7 @@ The Active Directory Project aimed to created a basic understanding of how Activ
 
 
 The first step in this assignment was to create a free account with Microsoft Azure. This gave me access to Azure's free services, along with $200 credit to use on the machines. Due to only having access to the free services, I was limited to only 4 virtual CPUs for my project. This meant I had to make sure I had enough memory to power each machine. For both windows machines, I went with the standard B1ms size, meaning they both had 2 gigs of RAM, but only used 1VCPU each. This allowed me to give more RAM to the Ubuntu machine, which was going to be a lot more resource-heavy. I decided to give the UBUNTU machine standard B2ms, meaing it had 8 gigs of RAM to work with, while only using 2 vCPUs. 
-![IMG_6329](https://github.com/user-attachments/assets/89a8787d-51ff-48f0-af28-ab755ffa6bbf)
+![IMG_6329](https://github.com/user-attachments/assets/cb2e977c-8648-4e45-bfd5-9ada63a1cce1)
 
 After creating all 3 virtual machines, I was able to start them up and access them through rdp files available to download from the Azure portal. 
 This gave me full access to both machines.
