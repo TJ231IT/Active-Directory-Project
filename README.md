@@ -41,7 +41,8 @@ ssh -i C:\Users\Tyler\Desktop\UbuntuSplunk_key.pem Splunk@4.227.xxx.xx
 This allowed me to use UBUNTU and ping the windows machines, to make sure they are able to communicate with each other. To ping the windows machines, I needed to type in "ping" along with the machines' private ip addresses. It looked something like this: 
 ping 10.0.x.x
 When I did this, however, I got no response from the target machines. To fix this, I tried opening up these ports in Azure for all machines on the domain:
-![Screenshot 2025-06-16 131840](https://github.com/user-attachments/assets/46cfd823-1c90-4e7a-9550-1a11807c1e6c)
+![IMG_6330](https://github.com/user-attachments/assets/39682cd8-42db-4a06-b81e-973d40844c80)
+
 Each port is in charge of different things. Although each port has a different function, I was able to use the same source IP for each one (this being my Public IP). Doing this allowed my machines to be a lot more secure since only inbound traffic within the Public IP was allowed to communicate with the machines. For a better understanding, this is what each port does: 
 TCP 443 (HTTPS): used for secure web traffic, encrypts your data. 
 TCP 80 (HTTP): used for web traffic, no encryption.
